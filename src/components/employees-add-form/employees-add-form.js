@@ -1,5 +1,6 @@
 import { Component } from 'react';
 
+// import './employees-add-form.css';
 import './employees-add-form.css';
 
 class EmployeesAddForm extends Component {
@@ -26,6 +27,7 @@ class EmployeesAddForm extends Component {
             salary: ''
         })
     }
+
 
     render() {
         const {name, salary} = this.state;
