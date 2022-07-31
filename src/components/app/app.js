@@ -37,7 +37,7 @@ class App extends Component {
             name,
             salary,
             increase: false,
-            risa: false,
+            rise: false,
             id: this.maxId++,
             tabindex: this.tabIndex++
         }
